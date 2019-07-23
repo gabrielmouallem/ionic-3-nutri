@@ -8,6 +8,7 @@ import { RegisterPage } from '../register/register';
 import { AngularFireAuth } from 'angularfire2/auth'
 
 import { Users } from './users';
+import { RecuperarPage } from '../recuperar/recuperar';
 
 
 @Component({
@@ -62,5 +63,9 @@ export class HomePage {
 
   cadastrar () {
     this.navCtrl.push(RegisterPage);
+  }
+
+  recuperar (){
+    this.navCtrl.push(RecuperarPage);
   }
 }

@@ -8,6 +8,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { DicasPage } from '../pages/dicas/dicas';
 import { RegisterPage } from '../pages/register/register';
+import { RecuperarPage } from '../pages/recuperar/recuperar';
 
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuthModule } from 'angularfire2/auth';
@@ -25,7 +26,8 @@ const firebaseAuth = {
     MyApp,
     HomePage,
     DicasPage,
-    RegisterPage
+    RegisterPage,
+    RecuperarPage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,8 @@ const firebaseAuth = {
     MyApp,
     HomePage,
     DicasPage,
-    RegisterPage
+    RegisterPage,
+    RecuperarPage
   ],
   providers: [
     StatusBar,
