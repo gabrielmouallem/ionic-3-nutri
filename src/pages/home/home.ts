@@ -74,7 +74,8 @@ export class HomePage {
     this.fire.auth.signInWithPopup(new firebase.auth.FacebookAuthProvider())
       .then(res => {
 
-        console.log(res);
+        this.navCtrl.push(DicasPage);
+        //console.log(res);
       })
   }
 }
