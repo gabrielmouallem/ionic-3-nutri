@@ -15,7 +15,7 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 
 const firebaseAuth = {
   apiKey: 'AIzaSyDy59sHKjnnCSSFxabnhZi0pD-LDU0I7Ag',
-  authDomain: 'nutri-f9f30.firebase.com',
+  authDomain: 'nutri-f9f30.firebaseapp.com',
   databaseURL: 'https://nutri-f9f30.firebase.com',
   projectId: 'nutri-f9f30',
   storageBucket: 'nutri-f9f30.appspot.com',
