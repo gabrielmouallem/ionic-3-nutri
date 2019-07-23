@@ -1,20 +1,21 @@
 
 <ion-content padding>
 
-  <h2 style="text-align: center;">Entrar</h2>
+  <img class = "logo" src = "assets/imgs/CursoLogo.png" />
 
   <ion-item>
-    <ion-label stacked>Usuário: </ion-label>
+    <ion-label><ion-icon name="person"></ion-icon> Email: </ion-label>
     <ion-input type="text" #usuario></ion-input>
   </ion-item>
 
   <ion-item>
-    <ion-label stacked>Senha: </ion-label>
+    <ion-label><ion-icon name="lock"></ion-icon> Senha: </ion-label>
     <ion-input type="password" #senha></ion-input>
   </ion-item>
 
-  <button ion-button block (click)="entrar()">Logar</button>
-  <button ion-button block (click)="cadastrar()">Cadastrar</button>
+  <button ion-button block class="botao" (click)="entrar()">Logar</button>
 
+  <p class="textos"><a (click)="cadastrar()">CRIAR UMA CONTA</a></p>
+  <p class="textos"><a (click)="cadastrar()">ESQUECI MINHA SENHA</a></p>
 
 </ion-content>
